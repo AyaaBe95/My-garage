@@ -1,0 +1,96 @@
+
+
+main{
+    width: 100%;
+    display: inline-block;
+}
+
+header{
+    background-color: #4a4a4a;
+    text-align: center;
+    padding: 5px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#formDiv{
+    float: left;
+    display: inline;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin: 150px;
+
+    background-color: #a3a3a3;
+}
+
+#listDiv{
+    float: right;
+    display: inline;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin: 100px;
+
+    background-color: #a3a3a3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+
+
+}
+
+#ourForm{
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    padding-right: 40px;
+}
+
+
+#ourForm input{
+    background-color: white;
+    font-size: 20px;
+
+}
+
+button{
+    color: #000;
+}
+
+#information{
+    background-color: white;
+}
+
+label{
+    font-size: larger;
+}
+#ourForm select{
+    height: 35px;
+    padding: 5px 10px;
+    width: 100px;
+}
+#ourForm input, #ourForm select{
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 4px;
+}
+
+td{
+border: black solid 5px;
+padding: 5px;
+}
+
+
+
+
+
